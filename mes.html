@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Calendario de Notas</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="js/app_mes.js" defer></script>
+    </head>
+    <body>
+        <h1 id="tituloWebMes"></h1>
+        <form id="formulario">
+            <fieldset id="nota">
+            <legend>Creación notas</legend>
+            <input type="text" id="titulo" placeholder="Título" required minlength="1"><br>
+            <textarea rows=4 columns=10 id="descripcion" placeholder="Descripcion" required minlength="1"></textarea>
+            </fieldset>
+            <div id="secBotones">
+            <button id="btnCrear" type="submit" class="btn">Crear nota</button>
+            <button type="reset" class="btn">Limpiar</button>
+            <button id="btn_borrar" type="button" class="btn">Borrar todo</button>
+            <a href="index.html" class="btn">Volver</a>
+            </div>
+        </form>
+        <section id="secNotas"></section>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Calendario de Notas</title>
+<link rel="stylesheet" href="css/styles.css">
+<script src="js/app_index.js" defer></script>
+</head>
+<body>
+    <h1>Calendario de Notas</h1>
+    <div class="contenedor"></div>
+    <button id="btn_lista" type="button" class="btn">Mostrar todos</button>
+    <button id="btn_limpiar" type="button" class="btn">Limpiar todo</button>
+    <form>
+        <fieldset>
+        <legend>Buscador de notas</legend>
+        <input type="text" id="tituloBusqueda" placeholder="Introduce un titulo a buscar" required minlength="1">
+        <button id="btn_buscar" type="button" class="btn">Buscar</button>
+        <section id="notaBuscar"></section>
+        </fieldset>
+    </form>
+    <section id="secTodasNotas"></section>
+</body>
+</html>
