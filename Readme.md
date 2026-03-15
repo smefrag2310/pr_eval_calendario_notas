@@ -26,4 +26,4 @@ Dispones de tres funciones:
 
 ##### Ampliaciones
 
-- Se ha implementado la amplación de buscador de notas, que buscará la nota que tenga el mismo título introducido por el usuario. 
+- Se ha implementado la ampliación de buscador de notas, que buscará la nota que tenga el mismo título introducido por el usuario. 
